@@ -1,0 +1,6 @@
+{
+  "name": "Center Al Assal - سنتر العسال للمفروشات",
+  "description": "متجر سنتر العسال لتجارة المفروشات الراقية - أرقى أطقم الملايات، البطاطين، اللحاف، والمفارش العصرية مع مساعد ذكاء اصطناعي ونظام إدارة متكامل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

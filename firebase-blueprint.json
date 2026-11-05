@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "Textile, bedding, and home linen products offered by Center Al Assal",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "categoryName": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "discount": { "type": "number" },
+        "images": { "type": "array" },
+        "sizes": { "type": "array" },
+        "colors": { "type": "array" },
+        "fabrics": { "type": "array" },
+        "stock": { "type": "number" },
+        "isAvailable": { "type": "boolean" },
+        "isNew": { "type": "boolean" },
+        "isBestSeller": { "type": "boolean" },
+        "isFeatured": { "type": "boolean" },
+        "rating": { "type": "number" },
+        "reviewsCount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "price", "categoryId", "stock", "isAvailable"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Store categories such as bedsheets, blankets, comforters, and towels",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" },
+        "image": { "type": "string" },
+        "itemCount": { "type": "number" }
+      },
+      "required": ["id", "name", "slug"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase orders with unique CAA-2026-XXXXX codes",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "orderCode": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "governorate": { "type": "string" },
+        "city": { "type": "string" },
+        "address": { "type": "string" },
+        "notes": { "type": "string" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "shippingCost": { "type": "number" },
+        "discountAmount": { "type": "number" },
+        "total": { "type": "number" },
+        "paymentMethod": { "type": "string" },
+        "paymentReceiptUrl": { "type": "string" },
+        "paymentStatus": { "type": "string" },
+        "orderStatus": { "type": "string" },
+        "adminNotes": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "orderCode", "customerName", "customerPhone", "address", "total", "paymentMethod", "orderStatus"]
+    },
+    "StoreSettings": {
+      "title": "StoreSettings",
+      "description": "Global store settings, branding, branch info, and payment configuration",
+      "type": "object",
+      "properties": {
+        "storeName": { "type": "string" },
+        "storeNameArabic": { "type": "string" },
+        "logoUrl": { "type": "string" },
+        "heroHeadline": { "type": "string" },
+        "heroSubheadline": { "type": "string" },
+        "heroImageUrl": { "type": "string" },
+        "announcement": { "type": "string" },
+        "phones": { "type": "array" },
+        "whatsapp": { "type": "string" },
+        "branches": { "type": "array" },
+        "paymentSettings": { "type": "object" },
+        "shippingRate": { "type": "number" },
+        "freeShippingThreshold": { "type": "number" },
+        "aiAssistantEnabled": { "type": "boolean" }
+      },
+      "required": ["storeName", "storeNameArabic", "phones", "paymentSettings"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Catalog of bedding and home textiles"
+    },
+    "/categories/{categoryId}": {
+      "schema": "Category",
+      "description": "Product categories"
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Customer purchase orders with unique order code"
+    },
+    "/settings/store": {
+      "schema": "StoreSettings",
+      "description": "Singleton configuration for store details and policies"
+    }
+  }
+}

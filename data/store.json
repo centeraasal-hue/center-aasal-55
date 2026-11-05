@@ -1,0 +1,396 @@
+{
+  "orderCounter": 101,
+  "admin": {
+    "passwordHash": "b5083476ac15ae9021edf254dd4c2ebae758aab750e1b3c7ba4fa2c4dae0298c316676bb21200188bceee3de664b992848a1f8a41c529a6bd804b735ae525931",
+    "salt": "0b751a5fd135346918bcacb9848eef07b2ed6104c62e8b9d78a0d2aeb2553152",
+    "isSetup": true
+  },
+  "settings": {
+    "storeName": "CENTER AL ASSAL",
+    "storeNameArabic": "سنتر العسال لتجارة المفروشات",
+    "logoUrl": "",
+    "heroHeadline": "الفخامة العصرية لراحة منزلك",
+    "heroSubheadline": "تشكيلة راقية من أرقى المفروشات، الملايات القطنية، والبطاطين الفاخرة بجودة عالمية وتصاميم تواكب أحدث صيحات 2026.",
+    "heroImageUrl": "/src/assets/images/hero_luxury_bedding_1793871158417.jpg",
+    "announcement": "✨ شحن سريع لجميع محافظات مصر | خصومات حصرية للموسم الجديد تصل إلى 35%",
+    "phones": [
+      "01277714100",
+      "01279207793"
+    ],
+    "whatsapp": "201277714100",
+    "branches": [
+      {
+        "id": "branch-1",
+        "name": "الفرع الأول – المعرض الرئيسي",
+        "address": "8 شارع أنور السادات",
+        "phone": "01277714100",
+        "hours": "يومياً من 10:00 صباحاً حتى 11:00 مساءً",
+        "mapUrl": "https://maps.google.com/?q=8+Anwar+El+Sadat+Street",
+        "isMain": true
+      },
+      {
+        "id": "branch-2",
+        "name": "الفرع الثاني – فرع كرموز",
+        "address": "95 عمود السواري – كرموز",
+        "phone": "01279207793",
+        "hours": "يومياً من 11:00 صباحاً حتى 11:30 مساءً",
+        "mapUrl": "https://maps.google.com/?q=95+Pompeys+Pillar+Karmouz",
+        "isMain": false
+      }
+    ],
+    "paymentSettings": {
+      "codEnabled": true,
+      "instapayEnabled": true,
+      "instapayHandle": "alassal.center@instapay",
+      "instapayPhone": "01277714100",
+      "walletEnabled": true,
+      "walletNumber": "01277714100",
+      "walletProvider": "فودافون كاش / إنستاباي / محفظة بنكية",
+      "walletBeneficiary": "سنتر العسال للمفروشات"
+    },
+    "shippingRate": 50,
+    "freeShippingThreshold": 1200,
+    "aiAssistantEnabled": true
+  },
+  "categories": [
+    {
+      "id": "cat-bedsheets",
+      "name": "أطقم الملايات",
+      "slug": "bedsheets",
+      "description": "أطقم ملايات قطن مصري 100% بتطريزات راقية وخامات فائقة النعومة تدوم طويلاً.",
+      "image": "/src/assets/images/category_bedsheets_1793871159128.jpg",
+      "itemCount": 4
+    },
+    {
+      "id": "cat-comforters",
+      "name": "اللحاف والكوفرتات",
+      "slug": "comforters",
+      "description": "ألحفة فندقية شتوية وصيفية بحشوات ميكروفايبر معالجة ولمسات جمالية ساحرة.",
+      "image": "/src/assets/images/category_comforters_1793871160345.jpg",
+      "itemCount": 3
+    },
+    {
+      "id": "cat-blankets",
+      "name": "البطاطين",
+      "slug": "blankets",
+      "description": "بطاطين حفر ليزر فاخرة وطبقات مزدوجة للدفء الملكي في ليالي الشتاء.",
+      "image": "/src/assets/images/category_blankets_1793871160966.jpg",
+      "itemCount": 3
+    },
+    {
+      "id": "cat-bedcovers",
+      "name": "المفارش العصرية",
+      "slug": "bedcovers",
+      "description": "مفارش سرير للعرائس والمناسبات بتطريزات كلاسيكية ومودرن تضفي بهجة وفخامة.",
+      "image": "/src/assets/images/hero_luxury_bedding_1793871158417.jpg",
+      "itemCount": 2
+    },
+    {
+      "id": "cat-towels",
+      "name": "الفوط والبشاكير",
+      "slug": "towels",
+      "description": "بشاكير وفوط حمام قطن ناعم عالي الامتصاص بألوان هادئة مستوحاة من الطبيعة.",
+      "image": "/src/assets/images/category_towels_1793871160094.jpg",
+      "itemCount": 3
+    },
+    {
+      "id": "cat-pillows",
+      "name": "المخدات والوسائد",
+      "slug": "pillows",
+      "description": "مخدات فندقية طبية ومريحة تدعم الرقبة لنوم هادئ ومريح كل ليلة.",
+      "image": "/src/assets/images/category_comforters_1793871160345.jpg",
+      "itemCount": 2
+    },
+    {
+      "id": "cat-rugs",
+      "name": "السجاد والمشايات",
+      "slug": "rugs",
+      "description": "سجاد أرضيات ناعم بتصاميم بوهيمية ومودرن تمنح غرفتك دفئاً استثنائياً.",
+      "image": "/src/assets/images/category_blankets_1793871160966.jpg",
+      "itemCount": 2
+    },
+    {
+      "id": "cat-curtains",
+      "name": "الستائر الفاخرة",
+      "slug": "curtains",
+      "description": "ستائر شيفون وقطيفة متناسقة تمنح إضاءة طبيعية دافئة لغرف النوم والمعيشة.",
+      "image": "/src/assets/images/hero_luxury_bedding_1793871158417.jpg",
+      "itemCount": 2
+    },
+    {
+      "id": "cat-others",
+      "name": "منتجات أخرى",
+      "slug": "others",
+      "description": "إكسسوارات سرير، أغطية حماية للمراتب ومكملات الديكور المنزلي.",
+      "image": "/src/assets/images/category_towels_1793871160094.jpg",
+      "itemCount": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "طقم ملاية ملكي تطريز يدوي – قطن مصري 100%",
+      "slug": "royal-egyptian-cotton-bedsheet",
+      "categoryId": "cat-bedsheets",
+      "categoryName": "أطقم الملايات",
+      "description": "طقم ملايات سرير فاخر مصنوع من أجود خيوط القطن المصري طويل التيلة (600 غرزة). ناعم كالحرير مع تطريز راقٍ بأطراف الأكياس ومحيط الملاءة باللون السماوي والذهبي الشامبين. يتضمن ملاية سرير كبيرة، 2 كيس وسادة، و2 كيس خدادية.",
+      "price": 1450,
+      "originalPrice": 1850,
+      "discount": 22,
+      "images": [
+        "/src/assets/images/category_bedsheets_1793871159128.jpg",
+        "/src/assets/images/hero_luxury_bedding_1793871158417.jpg"
+      ],
+      "sizes": [
+        "كينج كبير (240×260 سم)",
+        "كوين وسط (220×240 سم)",
+        "سرير مفرد (180×220 سم)"
+      ],
+      "colors": [
+        "أبيض عاجي وتطريز أزرق",
+        "بيج كريمي وهادئ",
+        "أخضر مريمي راقي"
+      ],
+      "fabrics": [
+        "قطن مصري 100% طويل التيلة",
+        "معالجة ضد الانكماش وتغير الألوان"
+      ],
+      "stock": 24,
+      "isAvailable": true,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviewsCount": 46,
+      "createdAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "لحاف ميكروفايبر فندقي دبل فيس – شتوي دافئ",
+      "slug": "hotel-microfiber-winter-comforter",
+      "categoryId": "cat-comforters",
+      "categoryName": "اللحاف والكوفرتات",
+      "description": "لحاف شتوي ملكي بتصميم مضلع ماسي يضمن توزيع الحشوة بشكل متساوي لدفء متكامل. وجه أبيض عاجي فندقي والوجه الآخر أزرق ثلجي هادئ. حشوة داخلية ميكروفايبر حرارية مقاومة للبكتيريا وحساسية الصدر.",
+      "price": 2150,
+      "originalPrice": 2600,
+      "discount": 17,
+      "images": [
+        "/src/assets/images/category_comforters_1793871160345.jpg",
+        "/src/assets/images/hero_luxury_bedding_1793871158417.jpg"
+      ],
+      "sizes": [
+        "مقاس كبير كينج (240×260 سم)",
+        "مقاس مفرد (180×240 سم)"
+      ],
+      "colors": [
+        "أبيض ثلجي / أزرق سماوي",
+        "أوف وايت / كريمي بيج"
+      ],
+      "fabrics": [
+        "خامة خارجية ميكروفايبر ناعمة جداً",
+        "حشوة فايبر بكر معالج حرارياً"
+      ],
+      "stock": 15,
+      "isAvailable": true,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "rating": 5,
+      "reviewsCount": 32,
+      "createdAt": "2026-03-02T11:00:00.000Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "بطانية حفر ليزر فاخرة طبقتين – دفء وسحر شتوي",
+      "slug": "embossed-plush-luxury-blanket",
+      "categoryId": "cat-blankets",
+      "categoryName": "البطاطين",
+      "description": "بطانية شتوية إسبانية الصنع بطبقتين سميكتين ولمسة مخملية فائقة النعومة، مزينة بنقوش ليزر بارزة تمنح غرفة النوم فخامة كلاسيكية لا تضاهى. وزن ممتاز يمنح الدفء والراحة في أبرد الليالي.",
+      "price": 1890,
+      "originalPrice": 2300,
+      "discount": 18,
+      "images": [
+        "/src/assets/images/category_blankets_1793871160966.jpg"
+      ],
+      "sizes": [
+        "مقاس كبير (220×240 سم) وزن 6 كجم",
+        "مقاس جامبو (240×260 سم) وزن 8 كجم"
+      ],
+      "colors": [
+        "كريمي دافئ",
+        "أخضر مريمي فاتح",
+        "سماوي ثلجي"
+      ],
+      "fabrics": [
+        "مخمل بوليستر تركي فائق النعومة",
+        "حفر ليزر ثلاثي الأبعاد"
+      ],
+      "stock": 18,
+      "isAvailable": true,
+      "isNew": false,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviewsCount": 58,
+      "createdAt": "2026-03-03T09:30:00.000Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "طقم فوط وبشاكير قطن 100% – 6 قطع هيدروفيليك",
+      "slug": "hydrophilic-cotton-towel-set",
+      "categoryId": "cat-towels",
+      "categoryName": "الفوط والبشاكير",
+      "description": "طقم مناشف سبا فندقية متكامل مكون من 2 بشكير حمام كبير، 2 فوطة يد، و2 فوطة وجه. تتميز بقدرة امتصاص فائقة ونعومة تدوم حتى بعد الغسيل المتكرر. ألوان متناسقة تناسب جميع ديكورات الحمامات العصرية.",
+      "price": 890,
+      "originalPrice": 1100,
+      "discount": 19,
+      "images": [
+        "/src/assets/images/category_towels_1793871160094.jpg"
+      ],
+      "sizes": [
+        "طقم 6 قطع متكامل (2 بشكير 90×150 + 2 فوطة 50×100 + 2 وجه 30×50)"
+      ],
+      "colors": [
+        "مزيج مريمي وأبيض وأزرق هادئ",
+        "أبيض فندقي موحد",
+        "بيج كريمي"
+      ],
+      "fabrics": [
+        "قطن مصري 100% هيدروفيليك عالي الامتصاص"
+      ],
+      "stock": 40,
+      "isAvailable": true,
+      "isNew": true,
+      "isBestSeller": false,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviewsCount": 29,
+      "createdAt": "2026-03-04T14:15:00.000Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "طقم مفرش عرائسي ساتان مطرز بحبات اللؤلؤ",
+      "slug": "bridal-pearl-embroidered-bedcover",
+      "categoryId": "cat-bedcovers",
+      "categoryName": "المفارش العصرية",
+      "description": "مفرش سرير زفاف ملكي مصنوع من الساتان الفاخر مع تطريز راقي ولمسات ذهب شامبين خفيفة. يمنح غرفة العروسين حضوراً ملكياً فخماً لا يُنسى.",
+      "price": 2750,
+      "originalPrice": 3400,
+      "discount": 19,
+      "images": [
+        "/src/assets/images/hero_luxury_bedding_1793871158417.jpg",
+        "/src/assets/images/category_bedsheets_1793871159128.jpg"
+      ],
+      "sizes": [
+        "طقم ملكي 7 قطع (مفرش 260×270 + ملاية + 4 خداديات + كوشن)"
+      ],
+      "colors": [
+        "أوف وايت عاجي",
+        "شامبين هادئ"
+      ],
+      "fabrics": [
+        "ساتان حريري مستورد مع بطانة قطن نقية"
+      ],
+      "stock": 8,
+      "isAvailable": true,
+      "isNew": true,
+      "isBestSeller": false,
+      "isFeatured": true,
+      "rating": 5,
+      "reviewsCount": 19,
+      "createdAt": "2026-03-05T12:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-sample-1",
+      "orderCode": "CAA-2026-00001",
+      "customerName": "أحمد محمود الرفاعي",
+      "customerPhone": "01012345678",
+      "customerEmail": "ahmed@example.com",
+      "governorate": "الإسكندرية",
+      "city": "سموحة",
+      "address": "شارع فوزي معاذ، عمارة الأمل، الدور الخامس",
+      "notes": "يرجى الاتصال قبل الوصول بنصف ساعة",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "طقم ملاية ملكي تطريز يدوي – قطن مصري 100%",
+          "price": 1450,
+          "quantity": 1,
+          "size": "كينج كبير (240×260 سم)",
+          "color": "أبيض عاجي وتطريز أزرق",
+          "image": "/src/assets/images/category_bedsheets_1793871159128.jpg"
+        }
+      ],
+      "subtotal": 1450,
+      "shippingCost": 0,
+      "discountAmount": 0,
+      "total": 1450,
+      "paymentMethod": "cod",
+      "paymentStatus": "verified",
+      "orderStatus": "delivered",
+      "adminNotes": "تم تسليم الطلب للعميل واستلام المبلغ نقداً بنجاح.",
+      "createdAt": "2026-03-01T15:20:00.000Z",
+      "updatedAt": "2026-03-02T16:00:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "منى الشاذلي",
+      "city": "الإسكندرية",
+      "rating": 5,
+      "comment": "ما شاء الله خامات سنتر العسال فوق الممتازة! أطقم الملايات ناعمة جداً والقطن مصري أصيل بعد الغسيل ما كش ولا غير لون. فرع كرموز تعاملهم محترم وسريع جداً.",
+      "productName": "طقم ملاية ملكي تطريز يدوي",
+      "date": "2026-03-02",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-2",
+      "author": "محمود الصاوي",
+      "city": "القاهرة",
+      "rating": 5,
+      "comment": "اللحاف الميكروفايبر الشتوي دافئ جداً وخفيف ومرتب على السرير، الدفع عند الاستلام وصل في يومين فقط وتغليف محكم وراقي.",
+      "productName": "لحاف ميكروفايبر فندقي دبل فيس",
+      "date": "2026-03-03",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-3",
+      "author": "سارة عبدالرحمن",
+      "city": "الجيزة",
+      "rating": 5,
+      "comment": "اشتريت جهاز بنتي بالكامل من سنتر العسال. المفروشات والبطاطين تشرف بجد، والأسعار ممتازة مقارنة بالسوق. شكراً سنتر العسال!",
+      "productName": "بطانية حفر ليزر فاخرة",
+      "date": "2026-03-04",
+      "verifiedPurchase": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "ما هي مواعيد العمل في فروع سنتر العسال؟",
+      "answer": "فرعنا الرئيسي بـ 8 شارع أنور السادات يعمل يومياً من الساعة 10:00 صباحاً حتى 11:00 مساءً. والفرع الثاني في 95 عمود السواري – كرموز يعمل يومياً من 11:00 صباحاً حتى 11:30 مساءً.",
+      "category": "الفروع"
+    },
+    {
+      "id": "faq-2",
+      "question": "ما هي طرق الدفع المتاحة في المتجر؟",
+      "answer": "نوفر الدفع عند الاستلام لجميع محافظات مصر، بالإضافة إلى التحويل المباشر عبر InstaPay، والمحافظ الإلكترونية (فودافون كاش، أورنج كاش، اتصالات كاش، وي باي) مع رفع إيصال التحويل.",
+      "category": "الدفع"
+    },
+    {
+      "id": "faq-3",
+      "question": "كم يستغرق شحن الطلبات؟",
+      "answer": "داخل الإسكندرية يتم التوصيل خلال 24 إلى 48 ساعة. باقي محافظات مصر خلال 2 إلى 4 أيام عمل. وتمنح الطلبات التي تتجاوز 1200 جنيه شحناً مجانياً.",
+      "category": "الشحن"
+    },
+    {
+      "id": "faq-4",
+      "question": "ما هي سياسة الاستبدال والاسترجاع؟",
+      "answer": "يحق للعميل استبدال أو استرجاع المنتج خلال 14 يوماً من تاريخ الاستلام بشرط أن يكون المنتج بحالته الأصلية وفي غلافه وغير مستعمل.",
+      "category": "الاسترجاع"
+    }
+  ]
+}
